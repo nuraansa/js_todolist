@@ -40,8 +40,12 @@ button{
     border-radius: 1rem;
 }
 button:hover{
-    background-color: rgb(138, 14, 128);
+    background-color: rgb(196, 138, 191);
     color: white;
+}
+
+.li, .ul::after{
+    text-decoration: line-through;
 }
 
 @media screen and (max-width:928px) {
