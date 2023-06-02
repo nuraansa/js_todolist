@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    background-image: url(https://i.postimg.cc/TYpC6Lt9/listimage.jpg);
+    background-repeat: no-repeat fixed center;
+    height: 100%;
+    background-size: cover;
+}
+#todolist{
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+    border: 3px solid rgb(106, 146, 106);
+    padding: 10px;
+    text-align: center;
+    border-radius: 1rem;
+}
+.header{
+    margin: 10px;
+}
+
+input{
+    margin: 1rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 1rem;
+}
+button{
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+button:hover{
+    background-color: rgb(151, 140, 140);
+    color: white;
+}
