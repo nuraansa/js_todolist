@@ -21,6 +21,8 @@ html{
 }
 .header{
     margin: 10px;
+    border: 2px solid rgb(106, 146, 106);
+    border-radius: 1rem;
 }
 
 input{
@@ -38,6 +40,58 @@ button{
     border-radius: 1rem;
 }
 button:hover{
-    background-color: rgb(151, 140, 140);
+    background-color: rgb(138, 14, 128);
     color: white;
+}
+
+@media screen and (max-width:928px) {
+    #todolist {
+      width: 400px;
+      flex-direction: column;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    input {
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+@media screen and (max-width:560px) {
+    #todolist {
+      width: 400px;
+      flex-direction: column;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    input {
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+@media screen and (max-width:400px) {
+    #todolist {
+      width: 300px;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    input {
+        width: 90%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    ul {
+        font-size: 1.5rem;
+    }
 }
